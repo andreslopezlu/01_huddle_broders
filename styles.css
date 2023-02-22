@@ -13,13 +13,25 @@
     #main{
         /* Dentro de este contenedor, contendrá los componentes de la página haces los
         media query que requieras para manejar el ancho que quieres darle de limite */
-        max-width: 375px;
+        max-width: 480px;
         min-height: 100vh; /* 100% del alto de la pantalla, minimo.
         Yo no le pondría un limite maximo a este contenedor,
         de pronto no queda dentro de la pagina y se 
         veria algo asi como el primer pantallazo que te enviee */
         background-color: hsl(257, 40%, 49%);
         margin: 0 auto;
+    }
+
+    #home{
+        /* overflow: hidden; */
+        height: 127px;
+    }
+
+    .logo{
+        margin-left: 40px;
+        margin-top: 38px;
+        width: 120px;
+        height: 19px;
     }
 
     .mockup-container{
