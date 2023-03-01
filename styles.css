@@ -1,14 +1,19 @@
 
-@media (max-width:480px){
+@media (min-width:375px) and (max-width:480px){
     body{
         /* Este es el contenedor que contiene todo el contenido de la pagina.
         Aca dentro puedes poner la imagen de background, me imagino que lo del 
         color lo querias, para cortar y poner lo que corresponde a informacion de la pagina */
     }
 
+    html{
+        font-size: 16px;
+    }
+
     #main{
         /* Dentro de este contenedor, contendrá los componentes de la página haces los
         media query que requieras para manejar el ancho que quieres darle de limite */
+        min-width: 375px;
         max-width: 480px;
         min-height: 100vh; /* 100% del alto de la pantalla, minimo.
         Yo no le pondría un limite maximo a este contenedor,
@@ -21,7 +26,6 @@
     }
 
     #home{
-        /* overflow: hidden; */
         height: 127px;
         position: relative;
         z-index: 2;
@@ -30,8 +34,8 @@
     .logo{
         margin-left: 40px;
         margin-top: 38px;
-        width: 120px;
-        height: 19px;
+        width: 32%;
+        height: auto;
         position: relative;
         z-index: 2;
     }
@@ -42,7 +46,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        height: 400px;
+        height: 45%;
         width: 100%;
         z-index: 1;
         top: 0px;
@@ -50,7 +54,7 @@
 
     .mockup-container{
         width: 100%;
-        min-height: 209px;
+        height: 37%;
         overflow: hidden;
     }
 
@@ -75,13 +79,13 @@
     }
 
     h1{
-        margin-top: 80px;
-        height: 72px;
+        margin-top: 20%;
+        height: 21%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 600;
-        font-size: 24px;
-        line-height: 36px;
+        font-size: 1.5rem;
+        line-height: 2.25rem;
         text-align: center;
         color: #FFFFFF;
     }
@@ -90,9 +94,9 @@
         font-family: 'Open Sans';
         font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 24px;
-        margin-top: 16px;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-top: 5%;
         text-align: center;
         color: #FFFFFF;
     }
@@ -102,12 +106,12 @@
     }
 
     .button{
-        margin-top: 24px;
+        margin-top: 8%;
         font-family: 'Poppins';
         font-style: normal;
         font-weight: 400;
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 0.75rem;
+        line-height: 1.125rem;
         text-align: center;
         color: #684BB1;
         width: 200px;
@@ -128,7 +132,7 @@
         display: flex;
         justify-content: space-between  ;
         align-content: center;
-        width: 150px;
+        width: 40%;
     }
 
     .icon {
