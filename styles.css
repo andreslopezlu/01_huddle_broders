@@ -115,4 +115,27 @@
         border-radius: 20px;
         border: 0;
     }
+
+    footer{
+        height: 132px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .social{
+        display: flex;
+        justify-content: space-between  ;
+        align-content: center;
+        width: 150px;
+    }
+
+    .icon {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        fill: white;
+        padding: 5px;
+    }
 }
