@@ -31,6 +31,15 @@ html{
     top: 0px;
 }
 
+.mockup{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
 @media (min-width:375px) and (max-width:550px){
     #home{
         height: 127px;
@@ -54,12 +63,6 @@ html{
     }
 
     .mockup{
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        position: relative;
-        z-index: 2;
         padding-left: 11%;
         padding-right: 11%;
     }
@@ -168,11 +171,6 @@ html{
     }
 
     .mockup{
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        position: relative;
-        z-index: 2;
         padding-left: 0%;
         padding-right: 5%;
     }
