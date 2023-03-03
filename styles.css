@@ -40,6 +40,12 @@ html{
     z-index: 2;
 }
 
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 @media (min-width:375px) and (max-width:550px){
     #home{
         height: 127px;
@@ -70,10 +76,6 @@ html{
     .description{
         width: 82%;
         margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
     }
 
     h1{
@@ -177,10 +179,6 @@ html{
 
     .description{
         width: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
         position: relative;
         z-index: 2;
     }
