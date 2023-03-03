@@ -10,11 +10,14 @@ html{
     z-index: 0;
 }
 
+#home{
+    position: relative;
+    z-index: 2;
+}
+
 @media (min-width:375px) and (max-width:550px){
     #home{
         height: 127px;
-        position: relative;
-        z-index: 2;
     }
 
     .logo-container > img{
@@ -133,8 +136,6 @@ html{
 @media (min-width:551px) and (max-width:900px){
     #home{
         height: 20vh;
-        position: relative;
-        z-index: 2;
     }
 
     .logo-container > img{
