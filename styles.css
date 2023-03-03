@@ -15,6 +15,12 @@ html{
     z-index: 2;
 }
 
+.logo-container > img{
+    height: auto;
+    position: relative;
+    z-index: 2;
+}
+
 @media (min-width:375px) and (max-width:550px){
     #home{
         height: 127px;
@@ -24,9 +30,6 @@ html{
         margin-left: 40px;
         margin-top: 38px;
         width: 32%;
-        height: auto;
-        position: relative;
-        z-index: 2;
     }
 
     .background{
@@ -142,9 +145,6 @@ html{
         margin-left: 5%;
         margin-top: 5%;
         width: 17%;
-        height: auto;
-        position: relative;
-        z-index: 2;
     }
 
     .background{
