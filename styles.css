@@ -81,6 +81,27 @@ p{
         border: 0;
     }
 
+    footer{
+        height: 132px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .social{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .icon {
+        width: 28px;
+        height: 28px;
+        fill: white;
+        padding: 5px;
+    }
+
 @media (min-width:375px) and (max-width:550px){
     #home{
         height: 127px;
@@ -127,26 +148,8 @@ p{
         margin-top: 8%;
     }
 
-    footer{
-        height: 132px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-    }
-
     .social{
-        display: flex;
-        justify-content: space-between  ;
-        align-content: center;
         width: 40%;
-    }
-
-    .icon {
-        width: 28px;
-        height: 28px;
-        fill: white;
-        padding: 5px;
     }
 }
 
@@ -200,27 +203,12 @@ p{
     }
 
     footer{
-        height: 132px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
         margin-top: 79px;
     }
 
     .social{
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
         width: 20%;
         position: relative;
         z-index: 2;
-    }
-
-    .icon {
-        width: 28px;
-        height: 28px;
-        fill: white;
-        padding: 5px;
     }
 }
