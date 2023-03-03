@@ -57,15 +57,29 @@ h1{
 }
 
 p{
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.25rem;
-    margin-top: 5%;
-    text-align: center;
-    color: #FFFFFF;
-}
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        margin-top: 5%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .button{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.75rem;
+        line-height: 1.125rem;
+        text-align: center;
+        color: #684BB1;
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        border: 0;
+    }
 
 @media (min-width:375px) and (max-width:550px){
     #home{
@@ -111,17 +125,6 @@ p{
 
     .button{
         margin-top: 8%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 0.75rem;
-        line-height: 1.125rem;
-        text-align: center;
-        color: #684BB1;
-        width: 200px;
-        height: 40px;
-        border-radius: 20px;
-        border: 0;
     }
 
     footer{
@@ -193,17 +196,6 @@ p{
 
     .button{
         margin-top: 5%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 0.75rem;
-        line-height: 1.125rem;
-        text-align: center;
-        color: #684BB1;
-        width: 200px;
-        height: 40px;
-        border-radius: 20px;
-        border: 0;
         max-resolution: 0 auto;
     }
 
