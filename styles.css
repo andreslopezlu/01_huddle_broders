@@ -1,191 +1,155 @@
+html{
+    font-size: 16px;
+}
+
+#main{
+    min-height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    margin: 0 auto;
+    position: relative;
+    z-index: 0;
+}
+
+#home{
+    position: relative;
+    z-index: 2;
+    height: 127px;
+}
+
+.logo-container > img{
+    height: auto;
+    position: relative;
+    z-index: 2;
+    margin-left: 40px;
+    margin-top: 38px;
+    width: 32%;
+}
+
+.background{
+    position: absolute;
+    background-image: url('assets/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    top: 0px;
+    width: 100%;
+    height: 45%;
+}
+
+.mockup-container{
+    width: 100%;
+    height: 37%;
+}
+
+.mockup{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    padding-left: 11%;
+    padding-right: 11%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 82%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20%;
+}
+
+p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    margin-top: 5%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    text-align: center;
+    color: #684BB1;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    margin-top: 8%;
+}
+
+footer{
+    height: 132px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 40%;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+    fill: white;
+    padding: 5px;
+}
 
 @media (min-width:375px) and (max-width:550px){
-
-    html{
-        font-size: 16px;
-    }
-
-    #main{
-        /* Dentro de este contenedor, contendrá los componentes de la página haces los
-        media query que requieras para manejar el ancho que quieres darle de limite */
-        min-width: 375px;
-        max-width: 550px;
-        min-height: 100vh; /* 100% del alto de la pantalla, minimo.
-        Yo no le pondría un limite maximo a este contenedor,
-        de pronto no queda dentro de la pagina y se 
-        veria algo asi como el primer pantallazo que te enviee */
-        background-color: hsl(257, 40%, 49%);
-        margin: 0 auto;
-        position: relative;
-        z-index: 0;
-    }
-
-    #home{
-        height: 127px;
-        position: relative;
-        z-index: 2;
-    }
-
-    .logo-container > img{
-        margin-left: 40px;
-        margin-top: 38px;
-        width: 32%;
-        height: auto;
-        position: relative;
-        z-index: 2;
-    }
-
-    .background{
-        position: absolute;
-        background-image: url('assets/bg-mobile.svg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 45%;
-        width: 100%;
-        z-index: 1;
-        top: 0px;
-    }
-
     .mockup-container{
-        width: 100%;
-        height: 37%;
         overflow: hidden;
     }
 
-    .mockup{
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin: 0 auto;
-        position: relative;
-        z-index: 2;
-        padding-left: 11%;
-        padding-right: 11%;
-    }
-
-    .description{
-        width: 82%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     h1{
-        margin-top: 20%;
         height: 21%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 1.5rem;
-        line-height: 2.25rem;
-        text-align: center;
-        color: #FFFFFF;
-    }
-
-    p{
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.25rem;
-        margin-top: 5%;
-        text-align: center;
-        color: #FFFFFF;
     }
 
     .register{ 
         margin: 0 auto;
     }
-
-    .button{
-        margin-top: 8%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 0.75rem;
-        line-height: 1.125rem;
-        text-align: center;
-        color: #684BB1;
-        width: 200px;
-        height: 40px;
-        border-radius: 20px;
-        border: 0;
-    }
-
-    footer{
-        height: 132px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
-    }
-
-    .social{
-        display: flex;
-        justify-content: space-between  ;
-        align-content: center;
-        width: 40%;
-    }
-
-    .icon {
-        width: 28px;
-        height: 28px;
-        fill: white;
-        padding: 5px;
-    }
 }
 
 
 @media (min-width:551px) and (max-width:900px){
-
-    html{
-        font-size: 16px;
-    }
-
-    #main{
-        /* Dentro de este contenedor, contendrá los componentes de la página haces los
-        media query que requieras para manejar el ancho que quieres darle de limite */
-        min-width: 551px;
-        max-width: 900px;
-        min-height: 100vh;
-        /* 100% del alto de la pantalla, minimo.
-        Yo no le pondría un limite maximo a este contenedor,
-        de pronto no queda dentro de la pagina y se 
-        veria algo asi como el primer pantallazo que te enviee */
-        background-color: hsl(257, 40%, 49%);
-        margin: 0 auto;
-        position: relative;
-        z-index: 0;
-    }
-
     #home{
         height: 20vh;
-        position: relative;
-        z-index: 2;
     }
 
     .logo-container > img{
         margin-left: 5%;
         margin-top: 5%;
         width: 17%;
-        height: auto;
-        position: relative;
-        z-index: 2;
     }
 
     .background{
-        position: absolute;
-        background-image: url('assets/bg-desktop.svg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         height: 100vh;
         width: 100%;
-        z-index: 1;
-        top: 0px;
     }
 
     .main-content{
@@ -201,85 +165,32 @@
     }
 
     .mockup{
-        max-width: 100%;
-        height: auto;
-        margin: 0 auto;
-        position: relative;
-        z-index: 2;
         padding-left: 0%;
         padding-right: 5%;
     }
 
     .description{
         width: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
         position: relative;
         z-index: 2;
     }
 
     h1{
         margin-top: 30%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 1.5rem;
-        line-height: 2.25rem;
-        text-align: center;
-        color: #FFFFFF;
-    }
-
-    p{
-        font-family: 'Open Sans';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 1rem;
-        line-height: 1.25rem;
-        margin-top: 5%;
-        text-align: center;
-        color: #FFFFFF;
     }
 
     .button{
         margin-top: 5%;
-        font-family: 'Poppins';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 0.75rem;
-        line-height: 1.125rem;
-        text-align: center;
-        color: #684BB1;
-        width: 200px;
-        height: 40px;
-        border-radius: 20px;
-        border: 0;
         max-resolution: 0 auto;
     }
 
     footer{
-        height: 132px;
-        display: flex;
-        justify-content: center;
-        align-content: center;
-        flex-wrap: wrap;
         margin-top: 79px;
     }
 
     .social{
-        display: flex;
-        justify-content: space-between;
-        align-content: center;
         width: 20%;
         position: relative;
         z-index: 2;
-    }
-
-    .icon {
-        width: 28px;
-        height: 28px;
-        fill: white;
-        padding: 5px;
     }
 }
