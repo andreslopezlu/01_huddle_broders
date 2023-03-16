@@ -148,7 +148,7 @@ footer{
     }
 
     .background{
-        height: 100vh;
+        height: 100%;
         width: 100%;
     }
 
@@ -194,3 +194,104 @@ footer{
         z-index: 2;
     }
 }
+
+@media (min-width:901px) {
+    #main{
+        max-width: 1440px;
+    }
+
+    #home{
+        height: 200px;
+    }
+
+    .logo-container > img{
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 13%;
+    }
+
+    .background{
+        height: 100%;
+        width: 100%;
+    }
+
+    .main-content{
+        display: flex;
+        margin: 0 auto;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    
+    .mockup-container{
+        width: 60%;        
+        height: 100%;
+    } 
+
+    .mockup{
+        padding-left: 0%;
+        padding-right: 7%;
+        margin: 0;
+    }
+
+    .description{
+        width: 40%;
+        justify-content: start;
+        align-items: flex-start;
+        margin: 0;
+        position: relative;
+        z-index: 2;
+    }
+
+    h1 {
+        text-align: left;
+        font-size: 2.5rem;
+        margin-top: 7%;
+        line-height: 3.75rem;
+    }
+
+    p {
+        text-align: left;
+        font-size: 1.125rem;
+        line-height: 1.69rem;
+    }
+
+    .button{
+        margin-top: 12%;
+        height: 56px;
+        border-radius: 28px;
+        font-size: 1.125rem;
+        line-height: 1.69rem;
+    }
+
+    .button:hover{
+        color: white;
+        background-color: #E880E8;
+    }
+
+    footer{
+        height: 152px;
+        justify-content: flex-end;
+        padding-right: 6%;
+        margin-top: 2%;
+    }
+    
+    .social{
+        display: flex;
+        width: 10%;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .icon {
+        width: 40px;
+        height: 40px;
+        fill: white;
+        padding: 8px;
+    }
+
+    .icon:hover{
+        fill: #E880E8;
+    }
+
+}
+
