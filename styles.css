@@ -271,12 +271,15 @@ footer{
         border-radius: 28px;
         font-size: 1.125rem;
         line-height: 1.69rem;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
     }
 
     .button:hover{
         color: white;
         background-color: #E880E8;
         cursor: pointer;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
+        transition: all 0.3s ease 0s;
     }
 
     footer{
